@@ -1,8 +1,27 @@
 aid: ecobites-pte-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ecobites-pte-ltd.png
 name: Ecobites Pte. Ltd.
-description: Ecobites Pte. Ltd. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Ecobites Pte. Ltd. operates Rec Rec, a Vietnamese consumer packaged-goods brand producing
+  cricket-based snack foods marketed as high-protein, nutrient-dense alternatives to conventional
+  snacks. Its product line spans cricket noodles (Mi Dam De), cricket puffs (Banh Phong De) in
+  flavors such as Gochujang and Mala, and seasoned dried crickets (De Say). Products emphasize
+  complete protein with a full amino-acid profile plus iron, zinc, magnesium, and potassium while
+  keeping sodium low. Rec Rec is distributed through 7-Eleven, Farmers Market, Galaxy Cinema, BHD
+  Cineplex, Naman Market, LS Place, Shopee, and TikTok Shop. The company is a 500 Global portfolio
+  company and was added to the API Evangelist network as a lead. It publishes a consumer
+  e-commerce website but no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ecobites-pte-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Consumer Packaged Goods
+- Food and Beverage
+- Snacks
+- E-Commerce
+- Sustainability
+- Alternative Protein
+- Vietnam
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ecobites-pte-ltd-domain-security.yml
 - type: Website
-  url: https://rec-rec.vn
+  url: https://www.recrec.vn/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
